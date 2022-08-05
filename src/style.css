@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: min(90%, 1300px);
+    margin: 0 auto;
+}
+
+.card-container {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+img {
+    width: 200px;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+p {
+    color: rgb(73, 73, 73);
+    font-size: 12px;
+    text-align: center;
+}
+
+button {
+    margin: 20px 10px;
+    min-width: 5rem;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    color: rgb(65, 98, 168);
+    border: 2px solid rgb(73, 73, 73);
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button.active {
+    background-color: rgb(65, 98, 168);
+    color: white;
+}
